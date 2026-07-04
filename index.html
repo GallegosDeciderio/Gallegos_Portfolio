@@ -6,8 +6,23 @@
         <link rel="stylesheet" href="css files/styles.css">
         <title>Deciderio Gallegos Main Page</title>
     </head>
-    <body>
-        <h1>Welcome to Deciderio Gallegos' Main Page</h1>
-        <p>About Me</p>
-    </body>
+    <header>
+            <main>
+                <h1>Welcome to Deciderio Gallegos' Main Page</h1>
+                <div id="currentDate" class=" "></div>
+                    <script>
+                        document.getElementById("currentDate").innerHTML = new Date().toDateString();
+                    </script>
+                    <nav>
+                        <h4>
+                        <a href="https://www.linkedin.com/in/deciderio-gallegos/" target="_blank">LinkedIn</a> |
+                        <a href="Resume.html">Resume</a> |
+                        <a href="CoverLetter.html">Cover Letter</a> |
+                        <a href="CareerGoals.html">Career Goals</a> |
+                        <a href="tables.html">Tables</a> |
+                        </h4>
+                    </nav>
+                    <hr>
+            </main>
+        </header>
     </body>
