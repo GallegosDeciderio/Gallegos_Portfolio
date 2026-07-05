@@ -1,5 +1,5 @@
 :root {
-    --color1: #f7edd4;
+    --color1: #f1f1f1;
     --color2: #273547;
     --color3: #3636a0;
     --color4: #1414b8;
@@ -16,6 +16,7 @@ h1 {
     color: var(--color5);
     font-style: italic;
     font-variant: small-caps;
+    text-align: center;
 }
 h3 {
     color: var(--color4);
@@ -81,11 +82,13 @@ td {
     padding: 7px;
     color: var(--color5);
 }
-
+/*footer styling*/
 footer {
     color: var(--color5);
     font-weight: bold;
     font-variant: small-caps;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Cover Letter CSS */
@@ -194,6 +197,18 @@ input[type="submit"] {
     color: white;
 }
 
+/*nav button styling */
+nav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+nav a:hover {
+    background-color:#888787;
+    font-weight: bold;
+}
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
